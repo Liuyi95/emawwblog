@@ -1,0 +1,74 @@
+.button {
+    transition: all 0.5s;
+  
+    &.button-signup {
+      padding: 22px 40px !important;
+  
+      &.btn-outlined.is-bold {
+        border-width: 2px;
+        font-weight: 600;
+      }
+    }
+  
+    &.button-cta {
+      padding: 22px 40px !important;
+  
+      &.btn-outlined.is-bold {
+        border-width: 2px;
+        font-weight: 600;
+      }
+    }
+  
+    &.no-lh {
+      line-height: 0 !important;
+    }
+  
+    &.button-action {
+      padding: 25px 40px !important;
+    }
+  
+    &.btn-align {
+      padding: 3px 13px 6px 13px;
+    }
+  
+    &.btn-align-md {
+      padding: 5px 15px 18px 15px;
+    }
+  
+    &.btn-align-lg {
+      padding: 6px 15px 18px 15px;
+    }
+  
+    &.btn-upper {
+      text-transform: uppercase;
+    }
+  
+    &.rounded {
+      border-radius: 500px;
+    }
+  
+    &.raised:hover {
+      box-shadow:
+        0 14px 26px -12px rgba(0, 0, 0, 0.42),
+        0 4px 23px 0px rgba(0, 0, 0, 0.12),
+        0 8px 10px -5px rgba(0, 0, 0, 0.2) !important;
+      opacity: 0.8;
+    }
+  
+    &.is-raised {
+      box-shadow:
+        0 14px 26px -12px rgba(0, 0, 0, 0.42),
+        0 4px 23px 0px rgba(0, 0, 0, 0.12),
+        0 8px 10px -5px rgba(0, 0, 0, 0.2) !important;
+    }
+  
+    &.is-bold {
+      font-weight: 500;
+    }
+  
+    &.btn-fade:hover {
+      opacity: 0.6;
+    }
+  
+    
+  }
