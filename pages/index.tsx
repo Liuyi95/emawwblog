@@ -4,7 +4,7 @@ import Image from 'next/image'
 // import Banner from "../components/Banner";
 // import BannerBottom from "../components/BannerBottom";
 import Header from "../components/Header";
-// import Footer from "../components/Footer";
+import Footer from "../components/Footer";
 // import sanityCli from "../sanity.cli";
 import { sanityClient, urlFor } from "../sanity";
 import { Post} from "../typings"
@@ -83,7 +83,7 @@ export default function Home({posts}: Props) {
         </div>
         {/* ============ Post Part End here =========== */}
         {/* ============ Footer Start here============= */}
-        {/* <Footer /> */}
+        <Footer />
         {/* ============ Footer End here ============== */}
       </main>
     </div>
